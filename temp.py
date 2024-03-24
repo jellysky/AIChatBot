@@ -34,7 +34,7 @@ from langchain.memory import ConversationSummaryBufferMemory, ConversationBuffer
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import CharacterTextSplitter
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'openaikey'
 path_for_directory_of_pdf = 'MangrovePDFs'
 
 pdf_loader = DirectoryLoader(path_for_directory_of_pdf, glob="**/*.pdf")
